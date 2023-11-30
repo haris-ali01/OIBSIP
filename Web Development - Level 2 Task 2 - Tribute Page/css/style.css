@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9dad678f; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #98af4c; 
+    padding: 0.2rem;
+    text-align: center;
+}
+
+header h1{
+    color: #fff;
+    font-size: 25px;
+}
+
+header h4{
+    font-size: 20px;
+    color: #fff;
+}
+
+main {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+    animation: fadeIn 1s ease-in-out; 
+}
+
+main span{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    animation: zoomIn 1s ease-in-out; 
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+main button{
+    background-color: rgb(77, 77, 193);
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+main button:hover{
+    background-color: rgb(83, 83, 155);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+main button a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #98af4c; 
+    color: #fff;
+    padding: 1em;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
