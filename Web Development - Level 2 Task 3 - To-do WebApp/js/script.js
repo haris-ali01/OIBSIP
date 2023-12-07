@@ -29,8 +29,8 @@ function renderToDoItem(element) {
 
     if (element.status) {
         li.firstChild.style.textDecoration = "line-through";
-        li.firstChild.style.pointerEvents = "none"; // Disable click events on completed tasks
-        li.querySelector('.edit').style.display = "none"; // Hide the edit button for completed tasks
+        li.firstChild.style.pointerEvents = "none"; 
+        li.querySelector('.edit').style.display = "none"; 
     }
 
     listItems.appendChild(li);
